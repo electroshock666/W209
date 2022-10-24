@@ -7,71 +7,71 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2113.2">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1">Here you can find some examples of how to reference files in your HTML code for your Flask app.</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;!— IMAGE EXAMPLES (stored in static/img) —&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Favicons --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!— CSS EXAMPLES (stored in static/img) —&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Bootstrap css --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- &lt;link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}"&gt; --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Libraries CSS Files --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/owlcarousel/assets/owl.theme.default.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/animate/animate.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/modal-video/css/modal-video.min.css') }}" rel="stylesheet"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Main Stylesheet File --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- =======================================================</p>
-<p class="p1"><span class="Apple-converted-space">    </span>Theme Name: eStartup</p>
-<p class="p1"><span class="Apple-converted-space">    </span>Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/</p>
-<p class="p1"><span class="Apple-converted-space">    </span>Author: BootstrapMade.com</p>
-<p class="p1"><span class="Apple-converted-space">    </span>License: https://bootstrapmade.com/license/</p>
-<p class="p1"><span class="Apple-converted-space">  </span>======================================================= --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega@5"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega-lite@5"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega-embed@6"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!— JAVASCRIPT EXAMPLES (stored in static/js) —&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- JavaScript Libraries --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery-migrate.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/bootstrap/js/bootstrap.bundle.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/superfish/hoverIntent.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/superfish/superfish.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/easing/easing.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/modal-video/js/modal-video.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/owlcarousel/owl.carousel.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/wow/wow.min.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Contact Form JavaScript File --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='contactform/contactform.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Template Main Javascript File --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='js/main.js') }}"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p1">If you want to see working code, you can check out a sample project:<span class="Apple-converted-space"> </span></p>
-<p class="p2"><br></p>
-<p class="p1">Repo:</p>
-<p class="p1">https://github.com/electroshock666/W209/tree/main/W209-BitCoin-Final-Project</p>
-<p class="p2"><br></p>
-<p class="p1">Website:</p>
-<p class="p1">https://apps-fall22.ischool.berkeley.edu/W209-cryptocurrency</p>
+<p class="p1"><span class="s1">Here you can find some examples of how to reference files in your HTML code for your Flask app.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;!— IMAGE EXAMPLES (stored in static/img) —&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Favicons --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon"&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;!— CSS EXAMPLES (stored in static/img) —&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Bootstrap css --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- &lt;link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}"&gt; --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Libraries CSS Files --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/owlcarousel/assets/owl.theme.default.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/animate/animate.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/modal-video/css/modal-video.min.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Main Stylesheet File --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- =======================================================</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>Theme Name: eStartup</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>Author: BootstrapMade.com</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>License: https://bootstrapmade.com/license/</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>======================================================= --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega@5"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega-lite@5"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.jsdelivr.net/npm/vega-embed@6"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!— JAVASCRIPT EXAMPLES (stored in static/js) —&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- JavaScript Libraries --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery-migrate.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/bootstrap/js/bootstrap.bundle.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/superfish/hoverIntent.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/superfish/superfish.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/easing/easing.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/modal-video/js/modal-video.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/owlcarousel/owl.carousel.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/wow/wow.min.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Contact Form JavaScript File --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='contactform/contactform.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Template Main Javascript File --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='js/main.js') }}"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
 </body>
 </html>
