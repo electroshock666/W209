@@ -1,0 +1,22 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <div id="observablehq-chart-b01c95fe"></div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script type="module">
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/@d3/line-chart-with-tooltip.js?v=3";
+        const main = new Runtime().module(define, name => {
+            if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-b01c95fe"));
+            return ["x","y","yAxis","bisect","xAxis","line"].includes(name);
+        });
+        d3.json("data.json").then(function(d) {
+            const newData = Object.assign(d.map(({date, close}) => ({date: new Date(date), value: close})), {y: "$ Close"});
+            main.redefine("data", newData);
+        });
+        </script>
+    </body>
+</html>

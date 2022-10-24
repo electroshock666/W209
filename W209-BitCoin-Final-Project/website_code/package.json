@@ -1,0 +1,14 @@
+{
+  "name": "@jeffrey-adams-ucb/w209-final-project-cryptocurrency-trader-dashboard/2",
+  "main": "b7936d9d359607de@830.js",
+  "version": "830.0.0",
+  "homepage": "https://observablehq.com/@jeffrey-adams-ucb/w209-final-project-cryptocurrency-trader-dashboard/2",
+  "author": {
+    "name": "jeffrey-adams-ucb",
+    "url": "https://observablehq.com/@jeffrey-adams-ucb"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
