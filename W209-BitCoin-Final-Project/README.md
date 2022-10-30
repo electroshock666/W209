@@ -1,7 +1,10 @@
 # W209-BitCoin-Final-Project
-This is a private repo for W209 Data Visualization and Communication Class Final Project Team 1
+This is the repo for W209 Data Visualization and Communication Class Final Project Team 1
 
 ## Team Members  - Jeffrey Adams, Pow Chang, Sweta Bhattacharya, Matt White
+#
+Python/Altair/Flask Version: https://apps-fall22.ischool.berkeley.edu/w209-cryptocurrency/
+Vega-lite/Observable Version: https://observablehq.com/@electroshock666/w209-final-project-cryptocurrency-trader-dashboard/4
 
 ## Final Project
 Working in a group of three or four people, you will design and develop an interactive visualization with some supporting text for viewing online.
@@ -20,7 +23,7 @@ What is your project concept? \
 Who are your users? \
 What are some tasks they will do with your visualization? \
 What is an example of an insight that you hope your work will show? \
-Where will you get your data? 
+Where will you get your data?
 
 ## Final Project Exploratory Visualization
 In this assignment you will be using your final project dataset and exploring it with your tool of choice from the course (d3/vegalite/altair/Tableau). Begin by inspecting the available data without visualizing the data, and write down three hypotheses. Next, investigate each of your hypotheses by visualizing relevant variables (including derived variables, if that helps) in multiple ways. Look for correlations, clusters, outliers, or any other patterns. See if you can find evidence for or against each hypothesis. As you explore, retain multiple sheets in your workbook that show the development of your analysis. Try to find something unexpected in the data. For only one of the hypotheses, describe your exploration process, noting changes and refinements you made to the visualizations as you went along, as well as what worked or didn’t work during your exploration process. We expect to see at least three steps in this refinement process. For the remaining two hypotheses, list each hypothesis and conclusion, provide the beginning and final visualization.
@@ -80,4 +83,4 @@ Your instructor will consider the final presentations, the web site, and any add
 10 points - Did you include results of usability testing? \
 8 points - Did you present data in a novel way? \
 8 points - Did you explain your choice of tools? \
-6 points - Did everyone in your group participate? 
+6 points - Did everyone in your group participate?
