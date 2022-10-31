@@ -13,17 +13,28 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1"><B>Here you can find some examples of how to reference files in your HTML code for your Flask app.</B></span></p>
+<p class="p1">&nbsp;</p>
+<h2 class="p1">&nbsp;W209 Final Project Tips and Tricks&nbsp; &nbsp;</h2>
+<h3 class="p1">&nbsp;Working With Flask:</h3>
+<p class="p1">&nbsp;In this directory is a shell script called "fill_flask.sh".&nbsp; The script will build out your virtual python environment and install the necessary libraries and lay out the directories with sample files for your project.</p>
+<p class="p1">The script can be used for both your personal site on the iSchool server as well as your group site (see instructions further down for running.) The script is not necessary but does create a slightly cleaner layout for your project files.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><strong>Personal Site Usage:</strong></p>
+<p class="p1">&nbsp; &nbsp; &nbsp; if used in your home directory on the ischool server should be run from your $HOME directoy (cd ~) and doesn't require any arguments.&nbsp;  &nbsp; &nbsp;&nbsp;</p>
+<p class="p1">&nbsp;<strong>Group Site Usage:</strong></p>
+<p class="p1">&nbsp; &nbsp;If using for your group project, you should execute the script while in your group's base directory (cd /groups/w209-&lt;projectname&gt;)&nbsp;</p>
+<p class="p1">&nbsp;</p>
+<p class="p1"><span class="s1"><b>Here you can find some examples of how to reference files saved in your "static" and "templates" directory in your HTML code for your Flask app.</b></span></p>
 <p class="p1"><span class="s1"><br>
 </span></p>
 <p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;!— IMAGE EXAMPLES (stored in static/img) —&gt;</span></p>
+<p class="p1"><span class="s1"><b>&lt;!— IMAGE EXAMPLES (stored in static/img) —&gt;</b></span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Favicons --&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon"&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon"&gt;</span></p>
 <p class="p1"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;!— CSS EXAMPLES (stored in static/img) —&gt;</span></p>
+<p class="p1"><span class="s1"><b>&lt;!— CSS EXAMPLES (stored in static/img) —&gt;</b></span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Bootstrap css --&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- &lt;link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}"&gt; --&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="{{ url_for('static',filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"&gt;</span></p>
@@ -54,7 +65,7 @@
 <p class="p1"><span class="s1"><br>
 </span></p>
 <p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!— JAVASCRIPT EXAMPLES (stored in static/js) —&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span><b>&lt;!— JAVASCRIPT EXAMPLES (stored in static/js) —&gt;</b></span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- JavaScript Libraries --&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery.min.js') }}"&gt;&lt;/script&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script src="{{ url_for('static',filename='lib/jquery/jquery-migrate.min.js') }}"&gt;&lt;/script&gt;</span></p>
@@ -74,10 +85,10 @@
 <p class="p1"><span class="s1">&lt;/body&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 	
-To see a sample project that uses Flask and Observable see here:
-	Observable: https://observablehq.com/@electroshock666/w209-final-project-cryptocurrency-trader-dashboard/3<br>
+<p class="p1">&nbsp;To see a sample project see below:
+	Observable/Vega-lite: https://observablehq.com/@electroshock666/w209-final-project-cryptocurrency-trader-dashboard/3<br>
 	Flask/HTML/JS: https://apps-fall22.ischool.berkeley.edu/w209-cryptocurrency/<br>
-	Github Repo: https://github.com/electroshock666/W209/tree/main/W209-BitCoin-Final-Project<br>
+	Github Repo: https://github.com/electroshock666/W209/tree/main/W209-BitCoin-Final-Project<br></p>
 
 	
 	
