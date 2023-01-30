@@ -1,0 +1,1928 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='players_20' inline='true' name='federated.1w2lgnh1ion9jj1bfcz3s168rzvt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='players_20' name='textscan.0dso9ia06l8q3j12qa3au0268hyd'>
+            <connection class='textscan' directory='/Users/matthewwhite/Documents/Development/School/W209/Week_2' filename='players_20.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dso9ia06l8q3j12qa3au0268hyd' name='players_20.csv' table='[players_20#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='sofifa_id' ordinal='0' />
+            <column datatype='string' name='player_url' ordinal='1' />
+            <column datatype='string' name='short_name' ordinal='2' />
+            <column datatype='string' name='long_name' ordinal='3' />
+            <column datatype='integer' name='age' ordinal='4' />
+            <column datatype='date' name='dob' ordinal='5' />
+            <column datatype='integer' name='height_cm' ordinal='6' />
+            <column datatype='integer' name='weight_kg' ordinal='7' />
+            <column datatype='string' name='nationality' ordinal='8' />
+            <column datatype='string' name='club' ordinal='9' />
+            <column datatype='integer' name='overall' ordinal='10' />
+            <column datatype='integer' name='potential' ordinal='11' />
+            <column datatype='integer' name='value_eur' ordinal='12' />
+            <column datatype='integer' name='wage_eur' ordinal='13' />
+            <column datatype='string' name='player_positions' ordinal='14' />
+            <column datatype='string' name='preferred_foot' ordinal='15' />
+            <column datatype='integer' name='international_reputation' ordinal='16' />
+            <column datatype='integer' name='weak_foot' ordinal='17' />
+            <column datatype='integer' name='skill_moves' ordinal='18' />
+            <column datatype='string' name='work_rate' ordinal='19' />
+            <column datatype='string' name='body_type' ordinal='20' />
+            <column datatype='string' name='real_face' ordinal='21' />
+            <column datatype='integer' name='release_clause_eur' ordinal='22' />
+            <column datatype='string' name='player_tags' ordinal='23' />
+            <column datatype='string' name='team_position' ordinal='24' />
+            <column datatype='integer' name='team_jersey_number' ordinal='25' />
+            <column datatype='string' name='loaned_from' ordinal='26' />
+            <column datatype='date' name='joined' ordinal='27' />
+            <column datatype='integer' name='contract_valid_until' ordinal='28' />
+            <column datatype='string' name='nation_position' ordinal='29' />
+            <column datatype='integer' name='nation_jersey_number' ordinal='30' />
+            <column datatype='integer' name='pace' ordinal='31' />
+            <column datatype='integer' name='shooting' ordinal='32' />
+            <column datatype='integer' name='passing' ordinal='33' />
+            <column datatype='integer' name='dribbling' ordinal='34' />
+            <column datatype='integer' name='defending' ordinal='35' />
+            <column datatype='integer' name='physic' ordinal='36' />
+            <column datatype='integer' name='gk_diving' ordinal='37' />
+            <column datatype='integer' name='gk_handling' ordinal='38' />
+            <column datatype='integer' name='gk_kicking' ordinal='39' />
+            <column datatype='integer' name='gk_reflexes' ordinal='40' />
+            <column datatype='integer' name='gk_speed' ordinal='41' />
+            <column datatype='integer' name='gk_positioning' ordinal='42' />
+            <column datatype='string' name='player_traits' ordinal='43' />
+            <column datatype='integer' name='attacking_crossing' ordinal='44' />
+            <column datatype='integer' name='attacking_finishing' ordinal='45' />
+            <column datatype='integer' name='attacking_heading_accuracy' ordinal='46' />
+            <column datatype='integer' name='attacking_short_passing' ordinal='47' />
+            <column datatype='integer' name='attacking_volleys' ordinal='48' />
+            <column datatype='integer' name='skill_dribbling' ordinal='49' />
+            <column datatype='integer' name='skill_curve' ordinal='50' />
+            <column datatype='integer' name='skill_fk_accuracy' ordinal='51' />
+            <column datatype='integer' name='skill_long_passing' ordinal='52' />
+            <column datatype='integer' name='skill_ball_control' ordinal='53' />
+            <column datatype='integer' name='movement_acceleration' ordinal='54' />
+            <column datatype='integer' name='movement_sprint_speed' ordinal='55' />
+            <column datatype='integer' name='movement_agility' ordinal='56' />
+            <column datatype='integer' name='movement_reactions' ordinal='57' />
+            <column datatype='integer' name='movement_balance' ordinal='58' />
+            <column datatype='integer' name='power_shot_power' ordinal='59' />
+            <column datatype='integer' name='power_jumping' ordinal='60' />
+            <column datatype='integer' name='power_stamina' ordinal='61' />
+            <column datatype='integer' name='power_strength' ordinal='62' />
+            <column datatype='integer' name='power_long_shots' ordinal='63' />
+            <column datatype='integer' name='mentality_aggression' ordinal='64' />
+            <column datatype='integer' name='mentality_interceptions' ordinal='65' />
+            <column datatype='integer' name='mentality_positioning' ordinal='66' />
+            <column datatype='integer' name='mentality_vision' ordinal='67' />
+            <column datatype='integer' name='mentality_penalties' ordinal='68' />
+            <column datatype='integer' name='mentality_composure' ordinal='69' />
+            <column datatype='integer' name='defending_marking' ordinal='70' />
+            <column datatype='integer' name='defending_standing_tackle' ordinal='71' />
+            <column datatype='integer' name='defending_sliding_tackle' ordinal='72' />
+            <column datatype='integer' name='goalkeeping_diving' ordinal='73' />
+            <column datatype='integer' name='goalkeeping_handling' ordinal='74' />
+            <column datatype='integer' name='goalkeeping_kicking' ordinal='75' />
+            <column datatype='integer' name='goalkeeping_positioning' ordinal='76' />
+            <column datatype='integer' name='goalkeeping_reflexes' ordinal='77' />
+            <column datatype='string' name='ls' ordinal='78' />
+            <column datatype='string' name='st' ordinal='79' />
+            <column datatype='string' name='rs' ordinal='80' />
+            <column datatype='string' name='lw' ordinal='81' />
+            <column datatype='string' name='lf' ordinal='82' />
+            <column datatype='string' name='cf' ordinal='83' />
+            <column datatype='string' name='rf' ordinal='84' />
+            <column datatype='string' name='rw' ordinal='85' />
+            <column datatype='string' name='lam' ordinal='86' />
+            <column datatype='string' name='cam' ordinal='87' />
+            <column datatype='string' name='ram' ordinal='88' />
+            <column datatype='string' name='lm' ordinal='89' />
+            <column datatype='string' name='lcm' ordinal='90' />
+            <column datatype='string' name='cm' ordinal='91' />
+            <column datatype='string' name='rcm' ordinal='92' />
+            <column datatype='string' name='rm' ordinal='93' />
+            <column datatype='string' name='lwb' ordinal='94' />
+            <column datatype='string' name='ldm' ordinal='95' />
+            <column datatype='string' name='cdm' ordinal='96' />
+            <column datatype='string' name='rdm' ordinal='97' />
+            <column datatype='string' name='rwb' ordinal='98' />
+            <column datatype='string' name='lb' ordinal='99' />
+            <column datatype='string' name='lcb' ordinal='100' />
+            <column datatype='string' name='cb' ordinal='101' />
+            <column datatype='string' name='rcb' ordinal='102' />
+            <column datatype='string' name='rb' ordinal='103' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0dso9ia06l8q3j12qa3au0268hyd' name='players_20.csv' table='[players_20#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='sofifa_id' ordinal='0' />
+            <column datatype='string' name='player_url' ordinal='1' />
+            <column datatype='string' name='short_name' ordinal='2' />
+            <column datatype='string' name='long_name' ordinal='3' />
+            <column datatype='integer' name='age' ordinal='4' />
+            <column datatype='date' name='dob' ordinal='5' />
+            <column datatype='integer' name='height_cm' ordinal='6' />
+            <column datatype='integer' name='weight_kg' ordinal='7' />
+            <column datatype='string' name='nationality' ordinal='8' />
+            <column datatype='string' name='club' ordinal='9' />
+            <column datatype='integer' name='overall' ordinal='10' />
+            <column datatype='integer' name='potential' ordinal='11' />
+            <column datatype='integer' name='value_eur' ordinal='12' />
+            <column datatype='integer' name='wage_eur' ordinal='13' />
+            <column datatype='string' name='player_positions' ordinal='14' />
+            <column datatype='string' name='preferred_foot' ordinal='15' />
+            <column datatype='integer' name='international_reputation' ordinal='16' />
+            <column datatype='integer' name='weak_foot' ordinal='17' />
+            <column datatype='integer' name='skill_moves' ordinal='18' />
+            <column datatype='string' name='work_rate' ordinal='19' />
+            <column datatype='string' name='body_type' ordinal='20' />
+            <column datatype='string' name='real_face' ordinal='21' />
+            <column datatype='integer' name='release_clause_eur' ordinal='22' />
+            <column datatype='string' name='player_tags' ordinal='23' />
+            <column datatype='string' name='team_position' ordinal='24' />
+            <column datatype='integer' name='team_jersey_number' ordinal='25' />
+            <column datatype='string' name='loaned_from' ordinal='26' />
+            <column datatype='date' name='joined' ordinal='27' />
+            <column datatype='integer' name='contract_valid_until' ordinal='28' />
+            <column datatype='string' name='nation_position' ordinal='29' />
+            <column datatype='integer' name='nation_jersey_number' ordinal='30' />
+            <column datatype='integer' name='pace' ordinal='31' />
+            <column datatype='integer' name='shooting' ordinal='32' />
+            <column datatype='integer' name='passing' ordinal='33' />
+            <column datatype='integer' name='dribbling' ordinal='34' />
+            <column datatype='integer' name='defending' ordinal='35' />
+            <column datatype='integer' name='physic' ordinal='36' />
+            <column datatype='integer' name='gk_diving' ordinal='37' />
+            <column datatype='integer' name='gk_handling' ordinal='38' />
+            <column datatype='integer' name='gk_kicking' ordinal='39' />
+            <column datatype='integer' name='gk_reflexes' ordinal='40' />
+            <column datatype='integer' name='gk_speed' ordinal='41' />
+            <column datatype='integer' name='gk_positioning' ordinal='42' />
+            <column datatype='string' name='player_traits' ordinal='43' />
+            <column datatype='integer' name='attacking_crossing' ordinal='44' />
+            <column datatype='integer' name='attacking_finishing' ordinal='45' />
+            <column datatype='integer' name='attacking_heading_accuracy' ordinal='46' />
+            <column datatype='integer' name='attacking_short_passing' ordinal='47' />
+            <column datatype='integer' name='attacking_volleys' ordinal='48' />
+            <column datatype='integer' name='skill_dribbling' ordinal='49' />
+            <column datatype='integer' name='skill_curve' ordinal='50' />
+            <column datatype='integer' name='skill_fk_accuracy' ordinal='51' />
+            <column datatype='integer' name='skill_long_passing' ordinal='52' />
+            <column datatype='integer' name='skill_ball_control' ordinal='53' />
+            <column datatype='integer' name='movement_acceleration' ordinal='54' />
+            <column datatype='integer' name='movement_sprint_speed' ordinal='55' />
+            <column datatype='integer' name='movement_agility' ordinal='56' />
+            <column datatype='integer' name='movement_reactions' ordinal='57' />
+            <column datatype='integer' name='movement_balance' ordinal='58' />
+            <column datatype='integer' name='power_shot_power' ordinal='59' />
+            <column datatype='integer' name='power_jumping' ordinal='60' />
+            <column datatype='integer' name='power_stamina' ordinal='61' />
+            <column datatype='integer' name='power_strength' ordinal='62' />
+            <column datatype='integer' name='power_long_shots' ordinal='63' />
+            <column datatype='integer' name='mentality_aggression' ordinal='64' />
+            <column datatype='integer' name='mentality_interceptions' ordinal='65' />
+            <column datatype='integer' name='mentality_positioning' ordinal='66' />
+            <column datatype='integer' name='mentality_vision' ordinal='67' />
+            <column datatype='integer' name='mentality_penalties' ordinal='68' />
+            <column datatype='integer' name='mentality_composure' ordinal='69' />
+            <column datatype='integer' name='defending_marking' ordinal='70' />
+            <column datatype='integer' name='defending_standing_tackle' ordinal='71' />
+            <column datatype='integer' name='defending_sliding_tackle' ordinal='72' />
+            <column datatype='integer' name='goalkeeping_diving' ordinal='73' />
+            <column datatype='integer' name='goalkeeping_handling' ordinal='74' />
+            <column datatype='integer' name='goalkeeping_kicking' ordinal='75' />
+            <column datatype='integer' name='goalkeeping_positioning' ordinal='76' />
+            <column datatype='integer' name='goalkeeping_reflexes' ordinal='77' />
+            <column datatype='string' name='ls' ordinal='78' />
+            <column datatype='string' name='st' ordinal='79' />
+            <column datatype='string' name='rs' ordinal='80' />
+            <column datatype='string' name='lw' ordinal='81' />
+            <column datatype='string' name='lf' ordinal='82' />
+            <column datatype='string' name='cf' ordinal='83' />
+            <column datatype='string' name='rf' ordinal='84' />
+            <column datatype='string' name='rw' ordinal='85' />
+            <column datatype='string' name='lam' ordinal='86' />
+            <column datatype='string' name='cam' ordinal='87' />
+            <column datatype='string' name='ram' ordinal='88' />
+            <column datatype='string' name='lm' ordinal='89' />
+            <column datatype='string' name='lcm' ordinal='90' />
+            <column datatype='string' name='cm' ordinal='91' />
+            <column datatype='string' name='rcm' ordinal='92' />
+            <column datatype='string' name='rm' ordinal='93' />
+            <column datatype='string' name='lwb' ordinal='94' />
+            <column datatype='string' name='ldm' ordinal='95' />
+            <column datatype='string' name='cdm' ordinal='96' />
+            <column datatype='string' name='rdm' ordinal='97' />
+            <column datatype='string' name='rwb' ordinal='98' />
+            <column datatype='string' name='lb' ordinal='99' />
+            <column datatype='string' name='lcb' ordinal='100' />
+            <column datatype='string' name='cb' ordinal='101' />
+            <column datatype='string' name='rcb' ordinal='102' />
+            <column datatype='string' name='rb' ordinal='103' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sofifa_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sofifa_id]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>sofifa_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_url]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>player_url</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>short_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[short_name]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>short_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>long_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[long_name]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>long_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dob</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[dob]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>dob</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>height_cm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[height_cm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>height_cm</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight_kg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weight_kg]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>weight_kg</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nationality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nationality]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>nationality</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[club]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>club</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[overall]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>overall</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>potential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[potential]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>potential</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value_eur</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[value_eur]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>value_eur</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wage_eur</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wage_eur]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>wage_eur</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_positions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_positions]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>player_positions</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>preferred_foot</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[preferred_foot]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>preferred_foot</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>international_reputation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[international_reputation]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>international_reputation</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weak_foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weak_foot]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>weak_foot</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_moves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_moves]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_moves</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_rate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[work_rate]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>work_rate</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>body_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[body_type]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>body_type</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>real_face</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[real_face]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>real_face</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_clause_eur</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_clause_eur]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>release_clause_eur</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_tags</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_tags]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>player_tags</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_position]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>team_position</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_jersey_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team_jersey_number]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>team_jersey_number</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loaned_from</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loaned_from]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>loaned_from</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>joined</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[joined]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>joined</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contract_valid_until</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contract_valid_until]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>contract_valid_until</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nation_position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nation_position]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>nation_position</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nation_jersey_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nation_jersey_number]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>nation_jersey_number</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pace</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pace]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>pace</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooting</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[shooting]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>shooting</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[passing]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>passing</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dribbling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dribbling]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>dribbling</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defending</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[defending]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>defending</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>physic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[physic]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>physic</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_diving</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_diving]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_diving</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_handling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_handling]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_handling</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_kicking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_kicking]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_kicking</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_reflexes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_reflexes]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_reflexes</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_speed]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_speed</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gk_positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gk_positioning]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>gk_positioning</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_traits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_traits]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>player_traits</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacking_crossing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacking_crossing]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>attacking_crossing</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacking_finishing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacking_finishing]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>attacking_finishing</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacking_heading_accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacking_heading_accuracy]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>attacking_heading_accuracy</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacking_short_passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacking_short_passing]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>attacking_short_passing</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacking_volleys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacking_volleys]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>attacking_volleys</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_dribbling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_dribbling]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_dribbling</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_curve</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_curve]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_curve</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_fk_accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_fk_accuracy]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_fk_accuracy</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_long_passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_long_passing]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_long_passing</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>skill_ball_control</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[skill_ball_control]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>skill_ball_control</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_acceleration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[movement_acceleration]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>movement_acceleration</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_sprint_speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[movement_sprint_speed]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>movement_sprint_speed</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_agility</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[movement_agility]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>movement_agility</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_reactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[movement_reactions]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>movement_reactions</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[movement_balance]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>movement_balance</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_shot_power</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power_shot_power]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>power_shot_power</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_jumping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power_jumping]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>power_jumping</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_stamina</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power_stamina]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>power_stamina</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_strength</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power_strength]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>power_strength</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_long_shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[power_long_shots]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>power_long_shots</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_aggression</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_aggression]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_aggression</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_interceptions]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_interceptions</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_positioning]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_positioning</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_vision</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_vision]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_vision</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_penalties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_penalties]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_penalties</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentality_composure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mentality_composure]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>mentality_composure</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defending_marking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[defending_marking]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>defending_marking</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defending_standing_tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[defending_standing_tackle]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>defending_standing_tackle</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defending_sliding_tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[defending_sliding_tackle]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>defending_sliding_tackle</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goalkeeping_diving</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goalkeeping_diving]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>goalkeeping_diving</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goalkeeping_handling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goalkeeping_handling]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>goalkeeping_handling</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goalkeeping_kicking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goalkeeping_kicking]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>goalkeeping_kicking</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goalkeeping_positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goalkeeping_positioning]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>goalkeeping_positioning</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goalkeeping_reflexes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goalkeeping_reflexes]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>goalkeeping_reflexes</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ls</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ls]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>ls</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>st</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[st]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>st</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rs]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rs</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lw</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lw]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lw</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lf]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lf</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cf]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>cf</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rf]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rf</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rw</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rw]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rw</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lam]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lam</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cam]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>cam</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ram</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ram]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>ram</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lm</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lcm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lcm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lcm</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>cm</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rcm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rcm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rcm</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rm</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lwb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lwb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lwb</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ldm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ldm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>ldm</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cdm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cdm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>cdm</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rdm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rdm]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rdm</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rwb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rwb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rwb</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lb</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lcb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lcb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>lcb</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>cb</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rcb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rcb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rcb</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rb]</local-name>
+            <parent-name>[players_20.csv]</parent-name>
+            <remote-alias>rb</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='players_20.csv' datatype='table' name='[__tableau_internal_object_id__].[players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Attacking Crossing' datatype='integer' name='[attacking_crossing]' role='measure' type='quantitative' />
+      <column caption='Attacking Finishing' datatype='integer' name='[attacking_finishing]' role='measure' type='quantitative' />
+      <column caption='Attacking Heading Accuracy' datatype='integer' name='[attacking_heading_accuracy]' role='measure' type='quantitative' />
+      <column caption='Attacking Short Passing' datatype='integer' name='[attacking_short_passing]' role='measure' type='quantitative' />
+      <column caption='Attacking Volleys' datatype='integer' name='[attacking_volleys]' role='measure' type='quantitative' />
+      <column caption='Body Type' datatype='string' name='[body_type]' role='dimension' type='nominal' />
+      <column caption='Cam' datatype='string' name='[cam]' role='dimension' type='nominal' />
+      <column caption='Cb' datatype='string' name='[cb]' role='dimension' type='nominal' />
+      <column caption='Cdm' datatype='string' name='[cdm]' role='dimension' type='nominal' />
+      <column caption='Cf' datatype='string' name='[cf]' role='dimension' type='nominal' />
+      <column caption='Club' datatype='string' name='[club]' role='dimension' type='nominal' />
+      <column caption='Cm' datatype='string' name='[cm]' role='dimension' type='nominal' />
+      <column caption='Contract Valid Until' datatype='integer' name='[contract_valid_until]' role='measure' type='quantitative' />
+      <column caption='Defending' datatype='integer' name='[defending]' role='measure' type='quantitative' />
+      <column caption='Defending Marking' datatype='integer' name='[defending_marking]' role='measure' type='quantitative' />
+      <column caption='Defending Sliding Tackle' datatype='integer' name='[defending_sliding_tackle]' role='measure' type='quantitative' />
+      <column caption='Defending Standing Tackle' datatype='integer' name='[defending_standing_tackle]' role='measure' type='quantitative' />
+      <column caption='Dob' datatype='date' name='[dob]' role='dimension' type='ordinal' />
+      <column caption='Dribbling' datatype='integer' name='[dribbling]' role='measure' type='quantitative' />
+      <column caption='Gk Diving' datatype='integer' name='[gk_diving]' role='measure' type='quantitative' />
+      <column caption='Gk Handling' datatype='integer' name='[gk_handling]' role='measure' type='quantitative' />
+      <column caption='Gk Kicking' datatype='integer' name='[gk_kicking]' role='measure' type='quantitative' />
+      <column caption='Gk Positioning' datatype='integer' name='[gk_positioning]' role='measure' type='quantitative' />
+      <column caption='Gk Reflexes' datatype='integer' name='[gk_reflexes]' role='measure' type='quantitative' />
+      <column caption='Gk Speed' datatype='integer' name='[gk_speed]' role='measure' type='quantitative' />
+      <column caption='Goalkeeping Diving' datatype='integer' name='[goalkeeping_diving]' role='measure' type='quantitative' />
+      <column caption='Goalkeeping Handling' datatype='integer' name='[goalkeeping_handling]' role='measure' type='quantitative' />
+      <column caption='Goalkeeping Kicking' datatype='integer' name='[goalkeeping_kicking]' role='measure' type='quantitative' />
+      <column caption='Goalkeeping Positioning' datatype='integer' name='[goalkeeping_positioning]' role='measure' type='quantitative' />
+      <column caption='Goalkeeping Reflexes' datatype='integer' name='[goalkeeping_reflexes]' role='measure' type='quantitative' />
+      <column caption='Height Cm' datatype='integer' name='[height_cm]' role='measure' type='quantitative' />
+      <column caption='International Reputation' datatype='integer' name='[international_reputation]' role='measure' type='quantitative' />
+      <column caption='Joined' datatype='date' name='[joined]' role='dimension' type='ordinal' />
+      <column caption='Lam' datatype='string' name='[lam]' role='dimension' type='nominal' />
+      <column caption='Lb' datatype='string' name='[lb]' role='dimension' type='nominal' />
+      <column caption='Lcb' datatype='string' name='[lcb]' role='dimension' type='nominal' />
+      <column caption='Lcm' datatype='string' name='[lcm]' role='dimension' type='nominal' />
+      <column caption='Ldm' datatype='string' name='[ldm]' role='dimension' type='nominal' />
+      <column caption='Lf' datatype='string' name='[lf]' role='dimension' type='nominal' />
+      <column caption='Lm' datatype='string' name='[lm]' role='dimension' type='nominal' />
+      <column caption='Loaned From' datatype='string' name='[loaned_from]' role='dimension' type='nominal' />
+      <column caption='Long Name' datatype='string' name='[long_name]' role='dimension' type='nominal' />
+      <column caption='Ls' datatype='string' name='[ls]' role='dimension' type='nominal' />
+      <column caption='Lw' datatype='string' name='[lw]' role='dimension' type='nominal' />
+      <column caption='Lwb' datatype='string' name='[lwb]' role='dimension' type='nominal' />
+      <column caption='Mentality Aggression' datatype='integer' name='[mentality_aggression]' role='measure' type='quantitative' />
+      <column caption='Mentality Composure' datatype='integer' name='[mentality_composure]' role='measure' type='quantitative' />
+      <column caption='Mentality Interceptions' datatype='integer' name='[mentality_interceptions]' role='measure' type='quantitative' />
+      <column caption='Mentality Penalties' datatype='integer' name='[mentality_penalties]' role='measure' type='quantitative' />
+      <column caption='Mentality Positioning' datatype='integer' name='[mentality_positioning]' role='measure' type='quantitative' />
+      <column caption='Mentality Vision' datatype='integer' name='[mentality_vision]' role='measure' type='quantitative' />
+      <column caption='Movement Acceleration' datatype='integer' name='[movement_acceleration]' role='measure' type='quantitative' />
+      <column caption='Movement Agility' datatype='integer' name='[movement_agility]' role='measure' type='quantitative' />
+      <column caption='Movement Balance' datatype='integer' name='[movement_balance]' role='measure' type='quantitative' />
+      <column caption='Movement Reactions' datatype='integer' name='[movement_reactions]' role='measure' type='quantitative' />
+      <column caption='Movement Sprint Speed' datatype='integer' name='[movement_sprint_speed]' role='measure' type='quantitative' />
+      <column caption='Nation Jersey Number' datatype='integer' name='[nation_jersey_number]' role='dimension' type='ordinal' />
+      <column caption='Nation Position' datatype='string' name='[nation_position]' role='dimension' type='nominal' />
+      <column caption='Nationality' datatype='string' name='[nationality]' role='dimension' type='nominal' />
+      <column caption='Overall' datatype='integer' name='[overall]' role='measure' type='quantitative' />
+      <column caption='Pace' datatype='integer' name='[pace]' role='measure' type='quantitative' />
+      <column caption='Passing' datatype='integer' name='[passing]' role='measure' type='quantitative' />
+      <column caption='Physic' datatype='integer' name='[physic]' role='measure' type='quantitative' />
+      <column caption='Player Positions' datatype='string' name='[player_positions]' role='dimension' type='nominal' />
+      <column caption='Player Tags' datatype='string' name='[player_tags]' role='dimension' type='nominal' />
+      <column caption='Player Traits' datatype='string' name='[player_traits]' role='dimension' type='nominal' />
+      <column caption='Player Url' datatype='string' name='[player_url]' role='dimension' type='nominal' />
+      <column caption='Potential' datatype='integer' name='[potential]' role='measure' type='quantitative' />
+      <column caption='Power Jumping' datatype='integer' name='[power_jumping]' role='measure' type='quantitative' />
+      <column caption='Power Long Shots' datatype='integer' name='[power_long_shots]' role='measure' type='quantitative' />
+      <column caption='Power Shot Power' datatype='integer' name='[power_shot_power]' role='measure' type='quantitative' />
+      <column caption='Power Stamina' datatype='integer' name='[power_stamina]' role='measure' type='quantitative' />
+      <column caption='Power Strength' datatype='integer' name='[power_strength]' role='measure' type='quantitative' />
+      <column caption='Preferred Foot' datatype='string' name='[preferred_foot]' role='dimension' type='nominal' />
+      <column caption='Ram' datatype='string' name='[ram]' role='dimension' type='nominal' />
+      <column caption='Rb' datatype='string' name='[rb]' role='dimension' type='nominal' />
+      <column caption='Rcb' datatype='string' name='[rcb]' role='dimension' type='nominal' />
+      <column caption='Rcm' datatype='string' name='[rcm]' role='dimension' type='nominal' />
+      <column caption='Rdm' datatype='string' name='[rdm]' role='dimension' type='nominal' />
+      <column caption='Real Face' datatype='string' name='[real_face]' role='dimension' type='nominal' />
+      <column caption='Release Clause Eur' datatype='integer' name='[release_clause_eur]' role='measure' type='quantitative' />
+      <column caption='Rf' datatype='string' name='[rf]' role='dimension' type='nominal' />
+      <column caption='Rm' datatype='string' name='[rm]' role='dimension' type='nominal' />
+      <column caption='Rs' datatype='string' name='[rs]' role='dimension' type='nominal' />
+      <column caption='Rw' datatype='string' name='[rw]' role='dimension' type='nominal' />
+      <column caption='Rwb' datatype='string' name='[rwb]' role='dimension' type='nominal' />
+      <column caption='Shooting' datatype='integer' name='[shooting]' role='measure' type='quantitative' />
+      <column caption='Short Name' datatype='string' name='[short_name]' role='dimension' type='nominal' />
+      <column caption='Skill Ball Control' datatype='integer' name='[skill_ball_control]' role='measure' type='quantitative' />
+      <column caption='Skill Curve' datatype='integer' name='[skill_curve]' role='measure' type='quantitative' />
+      <column caption='Skill Dribbling' datatype='integer' name='[skill_dribbling]' role='measure' type='quantitative' />
+      <column caption='Skill Fk Accuracy' datatype='integer' name='[skill_fk_accuracy]' role='measure' type='quantitative' />
+      <column caption='Skill Long Passing' datatype='integer' name='[skill_long_passing]' role='measure' type='quantitative' />
+      <column caption='Skill Moves' datatype='integer' name='[skill_moves]' role='measure' type='quantitative' />
+      <column caption='Sofifa Id' datatype='integer' name='[sofifa_id]' role='dimension' type='ordinal' />
+      <column caption='St' datatype='string' name='[st]' role='dimension' type='nominal' />
+      <column caption='Team Jersey Number' datatype='integer' name='[team_jersey_number]' role='dimension' type='ordinal' />
+      <column caption='Team Position' datatype='string' name='[team_position]' role='dimension' type='nominal' />
+      <column caption='Value Eur' datatype='integer' name='[value_eur]' role='measure' type='quantitative' />
+      <column caption='Wage Eur' datatype='integer' name='[wage_eur]' role='measure' type='quantitative' />
+      <column caption='Weak Foot' datatype='integer' name='[weak_foot]' role='measure' type='quantitative' />
+      <column caption='Weight Kg' datatype='integer' name='[weight_kg]' role='measure' type='quantitative' />
+      <column caption='Work Rate' datatype='string' name='[work_rate]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='players_20.csv' id='players_20.csv_40D848ECA24F4FC5A62D28F022F0B5AB'>
+            <properties context=''>
+              <relation connection='textscan.0dso9ia06l8q3j12qa3au0268hyd' name='players_20.csv' table='[players_20#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='sofifa_id' ordinal='0' />
+                  <column datatype='string' name='player_url' ordinal='1' />
+                  <column datatype='string' name='short_name' ordinal='2' />
+                  <column datatype='string' name='long_name' ordinal='3' />
+                  <column datatype='integer' name='age' ordinal='4' />
+                  <column datatype='date' name='dob' ordinal='5' />
+                  <column datatype='integer' name='height_cm' ordinal='6' />
+                  <column datatype='integer' name='weight_kg' ordinal='7' />
+                  <column datatype='string' name='nationality' ordinal='8' />
+                  <column datatype='string' name='club' ordinal='9' />
+                  <column datatype='integer' name='overall' ordinal='10' />
+                  <column datatype='integer' name='potential' ordinal='11' />
+                  <column datatype='integer' name='value_eur' ordinal='12' />
+                  <column datatype='integer' name='wage_eur' ordinal='13' />
+                  <column datatype='string' name='player_positions' ordinal='14' />
+                  <column datatype='string' name='preferred_foot' ordinal='15' />
+                  <column datatype='integer' name='international_reputation' ordinal='16' />
+                  <column datatype='integer' name='weak_foot' ordinal='17' />
+                  <column datatype='integer' name='skill_moves' ordinal='18' />
+                  <column datatype='string' name='work_rate' ordinal='19' />
+                  <column datatype='string' name='body_type' ordinal='20' />
+                  <column datatype='string' name='real_face' ordinal='21' />
+                  <column datatype='integer' name='release_clause_eur' ordinal='22' />
+                  <column datatype='string' name='player_tags' ordinal='23' />
+                  <column datatype='string' name='team_position' ordinal='24' />
+                  <column datatype='integer' name='team_jersey_number' ordinal='25' />
+                  <column datatype='string' name='loaned_from' ordinal='26' />
+                  <column datatype='date' name='joined' ordinal='27' />
+                  <column datatype='integer' name='contract_valid_until' ordinal='28' />
+                  <column datatype='string' name='nation_position' ordinal='29' />
+                  <column datatype='integer' name='nation_jersey_number' ordinal='30' />
+                  <column datatype='integer' name='pace' ordinal='31' />
+                  <column datatype='integer' name='shooting' ordinal='32' />
+                  <column datatype='integer' name='passing' ordinal='33' />
+                  <column datatype='integer' name='dribbling' ordinal='34' />
+                  <column datatype='integer' name='defending' ordinal='35' />
+                  <column datatype='integer' name='physic' ordinal='36' />
+                  <column datatype='integer' name='gk_diving' ordinal='37' />
+                  <column datatype='integer' name='gk_handling' ordinal='38' />
+                  <column datatype='integer' name='gk_kicking' ordinal='39' />
+                  <column datatype='integer' name='gk_reflexes' ordinal='40' />
+                  <column datatype='integer' name='gk_speed' ordinal='41' />
+                  <column datatype='integer' name='gk_positioning' ordinal='42' />
+                  <column datatype='string' name='player_traits' ordinal='43' />
+                  <column datatype='integer' name='attacking_crossing' ordinal='44' />
+                  <column datatype='integer' name='attacking_finishing' ordinal='45' />
+                  <column datatype='integer' name='attacking_heading_accuracy' ordinal='46' />
+                  <column datatype='integer' name='attacking_short_passing' ordinal='47' />
+                  <column datatype='integer' name='attacking_volleys' ordinal='48' />
+                  <column datatype='integer' name='skill_dribbling' ordinal='49' />
+                  <column datatype='integer' name='skill_curve' ordinal='50' />
+                  <column datatype='integer' name='skill_fk_accuracy' ordinal='51' />
+                  <column datatype='integer' name='skill_long_passing' ordinal='52' />
+                  <column datatype='integer' name='skill_ball_control' ordinal='53' />
+                  <column datatype='integer' name='movement_acceleration' ordinal='54' />
+                  <column datatype='integer' name='movement_sprint_speed' ordinal='55' />
+                  <column datatype='integer' name='movement_agility' ordinal='56' />
+                  <column datatype='integer' name='movement_reactions' ordinal='57' />
+                  <column datatype='integer' name='movement_balance' ordinal='58' />
+                  <column datatype='integer' name='power_shot_power' ordinal='59' />
+                  <column datatype='integer' name='power_jumping' ordinal='60' />
+                  <column datatype='integer' name='power_stamina' ordinal='61' />
+                  <column datatype='integer' name='power_strength' ordinal='62' />
+                  <column datatype='integer' name='power_long_shots' ordinal='63' />
+                  <column datatype='integer' name='mentality_aggression' ordinal='64' />
+                  <column datatype='integer' name='mentality_interceptions' ordinal='65' />
+                  <column datatype='integer' name='mentality_positioning' ordinal='66' />
+                  <column datatype='integer' name='mentality_vision' ordinal='67' />
+                  <column datatype='integer' name='mentality_penalties' ordinal='68' />
+                  <column datatype='integer' name='mentality_composure' ordinal='69' />
+                  <column datatype='integer' name='defending_marking' ordinal='70' />
+                  <column datatype='integer' name='defending_standing_tackle' ordinal='71' />
+                  <column datatype='integer' name='defending_sliding_tackle' ordinal='72' />
+                  <column datatype='integer' name='goalkeeping_diving' ordinal='73' />
+                  <column datatype='integer' name='goalkeeping_handling' ordinal='74' />
+                  <column datatype='integer' name='goalkeeping_kicking' ordinal='75' />
+                  <column datatype='integer' name='goalkeeping_positioning' ordinal='76' />
+                  <column datatype='integer' name='goalkeeping_reflexes' ordinal='77' />
+                  <column datatype='string' name='ls' ordinal='78' />
+                  <column datatype='string' name='st' ordinal='79' />
+                  <column datatype='string' name='rs' ordinal='80' />
+                  <column datatype='string' name='lw' ordinal='81' />
+                  <column datatype='string' name='lf' ordinal='82' />
+                  <column datatype='string' name='cf' ordinal='83' />
+                  <column datatype='string' name='rf' ordinal='84' />
+                  <column datatype='string' name='rw' ordinal='85' />
+                  <column datatype='string' name='lam' ordinal='86' />
+                  <column datatype='string' name='cam' ordinal='87' />
+                  <column datatype='string' name='ram' ordinal='88' />
+                  <column datatype='string' name='lm' ordinal='89' />
+                  <column datatype='string' name='lcm' ordinal='90' />
+                  <column datatype='string' name='cm' ordinal='91' />
+                  <column datatype='string' name='rcm' ordinal='92' />
+                  <column datatype='string' name='rm' ordinal='93' />
+                  <column datatype='string' name='lwb' ordinal='94' />
+                  <column datatype='string' name='ldm' ordinal='95' />
+                  <column datatype='string' name='cdm' ordinal='96' />
+                  <column datatype='string' name='rdm' ordinal='97' />
+                  <column datatype='string' name='rwb' ordinal='98' />
+                  <column datatype='string' name='lb' ordinal='99' />
+                  <column datatype='string' name='lcb' ordinal='100' />
+                  <column datatype='string' name='cb' ordinal='101' />
+                  <column datatype='string' name='rcb' ordinal='102' />
+                  <column datatype='string' name='rb' ordinal='103' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{481948F1-2926-4F8E-B2B8-BD83B92C6EEA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{925F7F33-8DB0-4226-8B38-9E47C5F85CF9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
